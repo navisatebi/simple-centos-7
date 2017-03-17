@@ -16,7 +16,7 @@ provider "openstack" {
 
 # Deploy a vanila CentoOS 7 image
 resource "openstack_compute_instance_v2" "centos7" {
-    name = "tomcat8-cOS7"
+    name = "simple-cOS7"
     image_id = "8f74dd15-46ae-4ce2-b33a-75459ff8869a"
     flavor_id = "20fce698-97de-49f1-82d0-179f3f56cf51"
     network = {uuid="1910d716-5960-4507-b2cc-edcf73c014b7"}
