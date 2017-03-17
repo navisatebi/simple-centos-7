@@ -1,2 +1,3 @@
-# be-application-test
-A sample application for BioExcel 
+# CentOS 7  
+
+A simple CentOS 7 infrastructure VM 
