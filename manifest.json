@@ -1,7 +1,7 @@
 {
-	"applicationName":"BioExcel Portal test application",
+	"applicationName":"CentOS 7",
 	"contactEmail":"jadianes@gmail.com",
-	"about":"A simple OpenStack Centos7 infrastructure",
+	"about":"A simple CentOS 7 infrastructure",
 	"version": "0.1",
 	"imageSource":{
 		"url":"http://homepages.cs.ncl.ac.uk/anirudh.agarwal/ESC_ENGINE.img",
@@ -11,7 +11,7 @@
 		{ "cloudProvider":"OSTACK", "path":"ostack" },
 		{ "cloudProvider":"AWS", "path":"aws" }
 	],
-	"inputs": [ "input1", "input2" ],
+	"inputs": [ "dummy1" ],
 	"outputs": [ "image_name", "name" ],
 	"volumes": []
 }
