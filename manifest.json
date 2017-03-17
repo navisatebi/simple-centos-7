@@ -1,7 +1,7 @@
 {
 	"applicationName":"CentOS 7",
 	"contactEmail":"jadianes@gmail.com",
-	"about":"A simple CentOS 7 infrastructure",
+	"about":"A simple CentOS 7 infrastructure. The AWS version is a work in progress.",
 	"version": "0.1",
 	"imageSource":{
 		"url":"http://homepages.cs.ncl.ac.uk/anirudh.agarwal/ESC_ENGINE.img",
