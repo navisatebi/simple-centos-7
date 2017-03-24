@@ -9,5 +9,6 @@
 	],
 	"inputs": [ "dummy1" ],
 	"outputs": [ "image_name", "name" ],
+	"deploymentParameters":[],
 	"volumes": []
 }
