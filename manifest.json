@@ -9,6 +9,6 @@
 	],
 	"inputs": [ "dummy1" ],
 	"outputs": [ "image_name", "name" ],
-	"deploymentParameters":[],
+	 "deploymentParameters": ["floatingip_pool", "machine_type"],
 	"volumes": []
 }
