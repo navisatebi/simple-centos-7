@@ -21,7 +21,7 @@ resource "openstack_compute_instance_v2" "centos7" {
     flavor_id = "20fce698-97de-49f1-82d0-179f3f56cf51"
     network = {uuid="1910d716-5960-4507-b2cc-edcf73c014b7"}
 #    floating_ip = "${openstack_compute_floatingip_v2.floatip_1.address}"
-    key_pair = "jdianes_cloud_key"
+    key_pair = "navis"
     security_groups = ["SSH-ICMP","all-open"]
 #    provisioner "local-exec" {
 #        command = "echo ${openstack_compute_instance_v2.centos7.access_ip_v4} > my_ip.txt"
