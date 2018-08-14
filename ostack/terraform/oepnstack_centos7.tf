@@ -17,7 +17,7 @@ provider "openstack" {
 # Deploy a vanila CentoOS 7 image
 resource "openstack_compute_instance_v2" "centos7" {
     name = "simple-cOS7"
-    image_name = "ubuntu-1604"
+    image_name = "centos-6.9"
     flavor_name = "s1.small"
     network = {uuid="07092bba-dd6f-40e1-96ac-ec420a3a9504"}
 #    floating_ip = "${openstack_compute_floatingip_v2.floatip_1.address}"
